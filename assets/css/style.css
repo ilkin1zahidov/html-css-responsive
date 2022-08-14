@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+.center li{
+    list-style: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.end span{
+    padding: 10px;
+}
+
+
+@media(max-width:576px){
+    .center{
+        display: none;
+    }
+    .end{
+        font-size: 12px;
+    }
+}
+
+#navbar{
+    position: sticky;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    top:0;
+  
+
+
+}
+
+#navbar i:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+#navbar .home:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+
+#navbar .page:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+
+#navbar .medical:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+#navbar .anglee{
+    margin-left: -30px;
+    margin-top: 12px;
+    font-size: 10px;
+}
+
+
+.theme{
+    color:green;
+    margin-right: 30px;
+
+}
+
+
+.icons i{
+    font-size: 23px;
+    padding: 10px;
+    position: relative;
+
+    
+}
+
+
+.icons .size{
+    position: absolute;
+    top: 26px;
+    padding: 1px;
+    background-color: red;
+    left: 0;
+    border-radius: 60%;
+    font-weight: 500;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    margin-left: 5px;
+
+    padding-right: 5px;
+}
+.images img{
+    width: 100%;
+}
+
+.slider{
+    position: relative;
+
+}
+
+.text{
+  position: absolute;
+
+  top: 157px;
+  left: 147px;
+  
+}
+
+.text button{
+    padding: 12px 32px 11px 26px;;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    font-size: 15px;
+    margin-left: 336px;
+    margin-top: 50px;
+    background-color: aqua;
+    color: white;
+    margin-left: -7px;
+
+}
+.text .shopbutton:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;    
+}
+.take{
+    font-weight: bold;
+}
+
+
+.care{
+    color: aqua;
+    font-weight: bold;
+}
+
+.your{
+    color:aqua;
+    font-weight: bold;
+}
+
+.health{
+    position: absolute;
+    left: 148px;
+    top: 50px;
+    font-weight: bold;
+}
+
+.shipping{
+    display: flex;
+    
+}
+
+.shipping p{
+    margin-left: 9px;
+}
+
+.shipping i{
+    font-size: 20px;
+    
+ 
+}
+
+
+.operator{
+   display: flex;
+}
+
+.operator p{
+    margin-left: 9px; 
+}
+
+.operator i{
+    font-size: 20px;
+     
+}
+.moneyback {
+    display: flex;
+}
+
+.moneyback p{
+    margin-left: 9px; 
+}
+
+.moneyback i{
+    font-size: 20px;
+}
+
+.gifts{
+    display: flex;
+}
+.gifts i{
+    font-size: 20px;
+}
+
+.gifts p{
+    margin-left: 9px; 
+}
+
+.all{
+    width: 100%;
+    height: 544px;
+    background-color: whitesmoke;
+
+   
+}
+.secondimg:hover{
+    transition: 0.9s;
+    transform: rotateY(180deg);
+    
+}
+
+.headtext{
+    margin-bottom: 50px;
+   padding-top: 30px;
+   margin-left: 20px;
+   font-weight: bold;
+}
+
+
+.big{
+    height: 557px;
+    object-fit: cover;
+}
+
+#secondslide{
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: -48px;
+}
+
+.warning h1{
+    padding-top: 40px;
+}
+.warning p{
+    margin-top: 80px;
+}
+.card svg{
+    text-align: center ;
+    margin-left: 100px;
+}
+
+
+.lorem{
+    margin-top: -19px;
+}
+
+#save{
+    background-color: aqua;
+}
+
+.greengift p{
+    margin-left: 200px;
+    margin-top: -40px;
+
+
+}
+
+.middle{
+    padding-top: 50px;
+    font-size: 40px;
+    margin-left: 130px;
+    color: white;
+}
+
+.purchase{
+    padding: 9px 40px 11px 34px;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    font-size: 15px;
+    margin-left: 336px;
+    margin-top: 50px;
+    background-color: white;
+    
+}
+.purchase:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+}
+
+.socials i{
+    font-size: 25px;
+    padding: 10px;
+  
+}
+.socials i:hover{
+   color:aqua;
+   cursor: pointer;
+   background-color: whitesmoke;
+}
+
+
+.register input{
+    padding: 9px 11px 16px 40px;
+    border: whitesmoke;
+    border-radius: -26px 65px 65px 63px;
+    background-color: whitesmoke;
+}
+
+.register button{
+    padding: 9px 40px 11px 34px;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    font-size: 15px;
+    margin-left: 336px;
+    margin-top: 50px;
+    background-color: aqua;
+    margin-left: 2px;
+    margin-top: 44px;
+    
+}
+
+.subscribe:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+}
+
+.stayhome{
+    font-weight: bold;
+}
+
+.main{
+    cursor: pointer;
+    
+}
+
+.giftsss:hover{
+
+  cursor: pointer;
+}
