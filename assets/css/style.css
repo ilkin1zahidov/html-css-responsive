@@ -13,24 +13,12 @@
     font-size: 19px;
     cursor: pointer;
 }
-ul{
+.center ul{
     display: flex;
     justify-content: space-evenly;
     
 }
-.end span{
-    padding: 10px;
-}
 
-
-@media(max-width:576px){
-    .center{
-        display: none;
-    }
-    .end{
-        font-size: 12px;
-    }
-}
 
 #navbar{
     position: sticky;
@@ -39,14 +27,27 @@ ul{
     background-color: white;
     width: 100%;
     top:0;
+    justify-content: center;
+  
+ 
   
 
 
 }
 
+
+#navbar .main{
+    cursor: pointer;
+    margin-top: -13px;
+    
+}
+
+
 #navbar i:hover{
     color:aqua;
     cursor: pointer;
+   
+
 }
 
 #navbar .home:hover{
@@ -335,12 +336,316 @@ ul{
     font-weight: bold;
 }
 
-.main{
-    cursor: pointer;
-    
-}
-
 .giftsss:hover{
 
   cursor: pointer;
+
+}
+
+
+@media(max-width: 768px){
+    #protect .card{
+        background-color: aqua;
+        margin-bottom: 10px;
+    }
+    #navbar .center{
+        display: none;
+    }
+    #navbar .icons i{
+        display: none;
+    }
+    .stayhomeimage img{
+        width: 80%;
+    }
+    #display .text{
+        display: none   ;
+
+    }
+    .purchase{
+        display: none;
+    }
+
+    .email{
+        text-align: center;
+    }
+
+    .socials{
+        text-align: center;
+    }
+
+    .register{
+        text-align: center;
+    }
+    .endimg img{
+        
+        margin-top: 50px;
+
+       
+    }
+    .endimg{
+        text-align: center;
+    }
+    .endicons i{
+       
+        margin-top: 50px;
+    }
+
+    .endicons{
+        text-align: center;
+    }
+
+    
+
+} 
+#newarrivals{
+    position: relative;
+}
+
+.card1{
+    position: absolute;
+    top: 273px;
+    left: 125px;
+    font-size: 11px;
+}
+
+.anti{
+    position: absolute;
+    top: 288px;
+    left: 51px;
+    font-size:15px
+}
+
+.money{
+    position: absolute;
+    top: 321px;
+    left: 109px;
+}
+
+
+.staarrs{
+    position: absolute;
+    top: 340px;
+    left: 83px;
+    color: yellow;
+}
+#endtext{
+    position: relative;
+}
+.endicons{
+    align-items: center;
+font-size: 40px;
+
+}
+.endicons i{
+    padding: 20px;
+}
+
+.endicons i:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: whitesmoke;
+}
+
+.endimg{
+cursor: pointer;
+}
+
+#secondslide{
+    position: relative;
+}
+
+.card-text1{
+    position: absolute;
+    top: 263px;
+    left: 240px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text2{
+    position: absolute;
+    top: 51px;
+    left: 29px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text3{
+    position: absolute;
+    top: 51px;
+    left: 206px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text4{
+    position: absolute;
+    top: 35px;
+    left: 4px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text5{
+    position: absolute;
+    top: -9px;
+    left: 194px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text1button{
+    position: absolute;
+    top: 404px;
+    left: 208px;
+    padding: 9px 40px 11px 34px;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    background-color: whitesmoke;
+    
+}
+
+.text1button:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.text2button{
+    position: absolute;
+    top: 148px;
+    left: 28px;
+    padding: 9px 40px 11px 34px;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    background-color: whitesmoke;
+    
+}
+
+.text2button:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.text3button{
+    position: absolute;
+    top: 148px;
+    left: 214px;
+    padding: 9px 40px 11px 34px;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    background-color: whitesmoke;
+    
+}
+
+.text3button:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.text4button{
+    position: absolute;
+    top: 168px;
+    left: 6px;
+    padding: 9px 40px 11px 34px;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    background-color: whitesmoke;
+    
+}
+
+.text4button:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.text5button{
+    position: absolute;
+    top: 170px;
+    left: 189px;
+    padding: 9px 40px 11px 34px;
+    border: white;
+    border-radius: 63px 65px 65px 63px ;
+    background-color: whitesmoke;
+    
+}
+
+.text5button:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+}
+
+.secondimg1 img:nth-child(2){
+    display: none;
+}
+
+.secondimg1:hover img:nth-child(2){
+    display: block;
+  
+}
+
+
+.secondimg1:hover img:nth-child(1){
+    display: none;
+
+}
+
+
+.secondimg2 img:nth-child(2){
+    display: none;
+}
+
+.secondimg2:hover img:nth-child(2){
+    display: block;
+  
+}
+
+
+.secondimg2:hover img:nth-child(1){
+    display: none;
+
+}
+
+.secondimg3 img:nth-child(2){
+    display: none;
+}
+
+.secondimg3:hover img:nth-child(2){
+    display: block;
+  
+}
+
+
+.secondimg3:hover img:nth-child(1){
+    display: none;
+
+}
+
+
+.secondimg4 img:nth-child(2){
+    display: none;
+}
+
+.secondimg4:hover img:nth-child(2){
+    display: block;
+  
+}
+
+
+.secondimg4:hover img:nth-child(1){
+    display: none;
+
 }
